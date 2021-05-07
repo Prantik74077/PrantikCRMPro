@@ -1,183 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="6" retried="1" total="11" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="101180" started-at="2021-05-06T20:30:36 IST" finished-at="2021-05-06T20:32:17 IST">
+  <suite name="Default suite" duration-ms="50740" started-at="2021-05-07T16:48:12 IST" finished-at="2021-05-07T16:49:03 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="101180" started-at="2021-05-06T20:30:36 IST" finished-at="2021-05-06T20:32:17 IST">
+    <test name="Default test" duration-ms="50740" started-at="2021-05-07T16:48:12 IST" finished-at="2021-05-07T16:49:03 IST">
       <class name="com.crm.vtiger.testscripts.Deliveredpurchaseorder">
-        <test-method status="PASS" signature="configBeforeSuite()[pri:0, instance:com.crm.vtiger.testscripts.Deliveredpurchaseorder@2d6eabae]" name="configBeforeSuite" is-config="true" duration-ms="246" started-at="2021-05-06T20:30:36 IST" finished-at="2021-05-06T20:30:36 IST">
+        <test-method status="PASS" signature="configBeforeSuite()[pri:0, instance:com.crm.vtiger.testscripts.Deliveredpurchaseorder@7f13d6e]" name="configBeforeSuite" is-config="true" duration-ms="244" started-at="2021-05-07T16:48:12 IST" finished-at="2021-05-07T16:48:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeSuite -->
-        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.crm.vtiger.testscripts.Deliveredpurchaseorder@2d6eabae]" name="configBeforeClass" is-config="true" duration-ms="5089" started-at="2021-05-06T20:30:36 IST" finished-at="2021-05-06T20:30:41 IST">
+        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.crm.vtiger.testscripts.Deliveredpurchaseorder@7f13d6e]" name="configBeforeClass" is-config="true" duration-ms="9007" started-at="2021-05-07T16:48:12 IST" finished-at="2021-05-07T16:48:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeClass -->
-        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.crm.vtiger.testscripts.Deliveredpurchaseorder@2d6eabae]" name="configBeforeMtd" is-config="true" duration-ms="2685" started-at="2021-05-06T20:30:41 IST" finished-at="2021-05-06T20:30:44 IST">
+        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.crm.vtiger.testscripts.Deliveredpurchaseorder@7f13d6e]" name="configBeforeMtd" is-config="true" duration-ms="15718" started-at="2021-05-07T16:48:21 IST" finished-at="2021-05-07T16:48:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeMtd -->
-        <test-method status="PASS" signature="createpurchaseorderwithdeliveredstatus()[pri:0, instance:com.crm.vtiger.testscripts.Deliveredpurchaseorder@2d6eabae]" name="createpurchaseorderwithdeliveredstatus" duration-ms="12988" started-at="2021-05-06T20:30:44 IST" finished-at="2021-05-06T20:30:57 IST">
+        <test-method status="PASS" signature="createpurchaseorderwithdeliveredstatus()[pri:0, instance:com.crm.vtiger.testscripts.Deliveredpurchaseorder@7f13d6e]" name="createpurchaseorderwithdeliveredstatus" duration-ms="23651" started-at="2021-05-07T16:48:37 IST" finished-at="2021-05-07T16:49:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createpurchaseorderwithdeliveredstatus -->
-        <test-method status="PASS" signature="configAfterMethod()[pri:0, instance:com.crm.vtiger.testscripts.Deliveredpurchaseorder@2d6eabae]" name="configAfterMethod" is-config="true" duration-ms="1219" started-at="2021-05-06T20:30:57 IST" finished-at="2021-05-06T20:30:58 IST">
+        <test-method status="PASS" signature="configAfterMethod()[pri:0, instance:com.crm.vtiger.testscripts.Deliveredpurchaseorder@7f13d6e]" name="configAfterMethod" is-config="true" duration-ms="1889" started-at="2021-05-07T16:49:00 IST" finished-at="2021-05-07T16:49:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterMethod -->
-        <test-method status="PASS" signature="configAfterClass()[pri:0, instance:com.crm.vtiger.testscripts.Deliveredpurchaseorder@2d6eabae]" name="configAfterClass" is-config="true" duration-ms="395" started-at="2021-05-06T20:30:58 IST" finished-at="2021-05-06T20:30:59 IST">
+        <test-method status="PASS" signature="configAfterClass()[pri:0, instance:com.crm.vtiger.testscripts.Deliveredpurchaseorder@7f13d6e]" name="configAfterClass" is-config="true" duration-ms="146" started-at="2021-05-07T16:49:02 IST" finished-at="2021-05-07T16:49:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterClass -->
-        <test-method status="PASS" signature="configAfterSuite()[pri:0, instance:com.crm.vtiger.testscripts.Deliveredpurchaseorder@2d6eabae]" name="configAfterSuite" is-config="true" duration-ms="5" started-at="2021-05-06T20:32:18 IST" finished-at="2021-05-06T20:32:18 IST">
+        <test-method status="PASS" signature="configAfterSuite()[pri:0, instance:com.crm.vtiger.testscripts.Deliveredpurchaseorder@7f13d6e]" name="configAfterSuite" is-config="true" duration-ms="8" started-at="2021-05-07T16:49:03 IST" finished-at="2021-05-07T16:49:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterSuite -->
       </class> <!-- com.crm.vtiger.testscripts.Deliveredpurchaseorder -->
-      <class name="com.crm.vtiger.testscripts.Receivedshipmentpurchaseorder">
-        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.crm.vtiger.testscripts.Receivedshipmentpurchaseorder@64729b1e]" name="configBeforeClass" is-config="true" duration-ms="4453" started-at="2021-05-06T20:31:34 IST" finished-at="2021-05-06T20:31:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBeforeClass -->
-        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.crm.vtiger.testscripts.Receivedshipmentpurchaseorder@64729b1e]" name="configBeforeMtd" is-config="true" duration-ms="2435" started-at="2021-05-06T20:31:38 IST" finished-at="2021-05-06T20:31:41 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBeforeMtd -->
-        <test-method status="PASS" signature="createpurchaseorderwithreceivedshipmentstatus()[pri:0, instance:com.crm.vtiger.testscripts.Receivedshipmentpurchaseorder@64729b1e]" name="createpurchaseorderwithreceivedshipmentstatus" duration-ms="12717" started-at="2021-05-06T20:31:41 IST" finished-at="2021-05-06T20:31:53 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createpurchaseorderwithreceivedshipmentstatus -->
-        <test-method status="PASS" signature="configAfterMethod()[pri:0, instance:com.crm.vtiger.testscripts.Receivedshipmentpurchaseorder@64729b1e]" name="configAfterMethod" is-config="true" duration-ms="1359" started-at="2021-05-06T20:31:53 IST" finished-at="2021-05-06T20:31:55 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAfterMethod -->
-        <test-method status="PASS" signature="configAfterClass()[pri:0, instance:com.crm.vtiger.testscripts.Receivedshipmentpurchaseorder@64729b1e]" name="configAfterClass" is-config="true" duration-ms="115" started-at="2021-05-06T20:31:55 IST" finished-at="2021-05-06T20:31:55 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAfterClass -->
-      </class> <!-- com.crm.vtiger.testscripts.Receivedshipmentpurchaseorder -->
-      <class name="com.crm.vtiger.testscripts.Cancelledpurchaseorder">
-        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.crm.vtiger.testscripts.Cancelledpurchaseorder@4e7dc304]" name="configBeforeClass" is-config="true" duration-ms="4826" started-at="2021-05-06T20:30:59 IST" finished-at="2021-05-06T20:31:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBeforeClass -->
-        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.crm.vtiger.testscripts.Cancelledpurchaseorder@4e7dc304]" name="configBeforeMtd" is-config="true" duration-ms="2612" started-at="2021-05-06T20:31:03 IST" finished-at="2021-05-06T20:31:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBeforeMtd -->
-        <test-method status="SKIP" signature="createpurchaseorderwithcancelledstatus()[pri:0, instance:com.crm.vtiger.testscripts.Cancelledpurchaseorder@4e7dc304]" name="createpurchaseorderwithcancelledstatus" duration-ms="8202" retried="true" started-at="2021-05-06T20:31:06 IST" finished-at="2021-05-06T20:31:14 IST">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window
-  (Session info: chrome=90.0.4430.93)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U4TDB48', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\DELLUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53685}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8043b32abacee5e10ff1258a6c174d78]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window
-  (Session info: chrome=90.0.4430.93)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U4TDB48', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\DELLUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53685}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8043b32abacee5e10ff1258a6c174d78
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:903)
-at com.commonlib.WebUtility.switchToBrowser(WebUtility.java:136)
-at com.objectrepo.Productspage.products(Productspage.java:34)
-at com.objectrepo.Vtigercreatenewpurchaseorder.createnewpurchaseorderwithcancelledstatus(Vtigercreatenewpurchaseorder.java:137)
-at com.crm.vtiger.testscripts.Cancelledpurchaseorder.createpurchaseorderwithcancelledstatus(Cancelledpurchaseorder.java:38)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createpurchaseorderwithcancelledstatus -->
-        <test-method status="PASS" signature="configAfterMethod()[pri:0, instance:com.crm.vtiger.testscripts.Cancelledpurchaseorder@4e7dc304]" name="configAfterMethod" is-config="true" duration-ms="1764" started-at="2021-05-06T20:31:14 IST" finished-at="2021-05-06T20:31:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAfterMethod -->
-        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.crm.vtiger.testscripts.Cancelledpurchaseorder@4e7dc304]" name="configBeforeMtd" is-config="true" duration-ms="3103" started-at="2021-05-06T20:31:16 IST" finished-at="2021-05-06T20:31:19 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBeforeMtd -->
-        <test-method status="PASS" signature="createpurchaseorderwithcancelledstatus()[pri:0, instance:com.crm.vtiger.testscripts.Cancelledpurchaseorder@4e7dc304]" name="createpurchaseorderwithcancelledstatus" duration-ms="13275" started-at="2021-05-06T20:31:19 IST" finished-at="2021-05-06T20:31:32 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createpurchaseorderwithcancelledstatus -->
-        <test-method status="PASS" signature="configAfterMethod()[pri:0, instance:com.crm.vtiger.testscripts.Cancelledpurchaseorder@4e7dc304]" name="configAfterMethod" is-config="true" duration-ms="1241" started-at="2021-05-06T20:31:32 IST" finished-at="2021-05-06T20:31:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAfterMethod -->
-        <test-method status="PASS" signature="configAfterClass()[pri:0, instance:com.crm.vtiger.testscripts.Cancelledpurchaseorder@4e7dc304]" name="configAfterClass" is-config="true" duration-ms="170" started-at="2021-05-06T20:31:34 IST" finished-at="2021-05-06T20:31:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAfterClass -->
-      </class> <!-- com.crm.vtiger.testscripts.Cancelledpurchaseorder -->
-      <class name="com.crm.vtiger.testscripts.Assignedtomarketinggrouppurchaseorder">
-        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.crm.vtiger.testscripts.Assignedtomarketinggrouppurchaseorder@10bbd20a]" name="configBeforeClass" is-config="true" duration-ms="5457" started-at="2021-05-06T20:31:55 IST" finished-at="2021-05-06T20:32:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBeforeClass -->
-        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.crm.vtiger.testscripts.Assignedtomarketinggrouppurchaseorder@10bbd20a]" name="configBeforeMtd" is-config="true" duration-ms="2631" started-at="2021-05-06T20:32:00 IST" finished-at="2021-05-06T20:32:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBeforeMtd -->
-        <test-method status="PASS" signature="createpurchaseordeassignedtomarketinggroup()[pri:0, instance:com.crm.vtiger.testscripts.Assignedtomarketinggrouppurchaseorder@10bbd20a]" name="createpurchaseordeassignedtomarketinggroup" duration-ms="12667" started-at="2021-05-06T20:32:03 IST" finished-at="2021-05-06T20:32:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createpurchaseordeassignedtomarketinggroup -->
-        <test-method status="PASS" signature="configAfterMethod()[pri:0, instance:com.crm.vtiger.testscripts.Assignedtomarketinggrouppurchaseorder@10bbd20a]" name="configAfterMethod" is-config="true" duration-ms="1250" started-at="2021-05-06T20:32:16 IST" finished-at="2021-05-06T20:32:17 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAfterMethod -->
-        <test-method status="PASS" signature="configAfterClass()[pri:0, instance:com.crm.vtiger.testscripts.Assignedtomarketinggrouppurchaseorder@10bbd20a]" name="configAfterClass" is-config="true" duration-ms="118" started-at="2021-05-06T20:32:17 IST" finished-at="2021-05-06T20:32:17 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAfterClass -->
-      </class> <!-- com.crm.vtiger.testscripts.Assignedtomarketinggrouppurchaseorder -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -18,7 +18,7 @@ public class DataBaseUtility
 	{
 		    driverRef = new Driver();
 			DriverManager.registerDriver(driverRef);
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Prantik", "root", "root");			
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee", "root", "root");			
 	}
 	
 	public  void closeDb() throws SQLException 
