@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Mar 14, 2021 03:43:53 PM</span></a>
+<a href="#"><span class="badge badge-primary">May 6, 2021 08:30:36 PM</span></a>
 </li>
 </ul>
 </div>
@@ -66,6 +66,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
@@ -74,42 +75,34 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="skip" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
           device="">
-          <div class="status-avatar skip-bg">
-            <i class="fa fa-long-arrow-right text-white"></i>
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
           </div>
           <div class="test-detail">
             <span class="meta text-white badge badge-sm"></span>
-            <p class="name">createpurchaseorder</p>
-            <p class="text-sm"><span>15:44:36 PM</span> / <span>66.305 secs</span></p>
+            <p class="name">createpurchaseorderwithdeliveredstatus</p>
+            <p class="text-sm"><span>20:30:44 PM</span> / <span>12.983 secs</span></p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
 <div class='float-right'><span class='badge badge-default'>#test-id=1</span></div>
-<h5 class="test-status text-skip">createpurchaseorder</h5>
-<span class='badge badge-success'>03.14.2021 15:44:36</span>
-<span class='badge badge-danger'>03.14.2021 15:45:42</span>
-<span class='badge badge-default'>66.305 secs</span>
+<h5 class="test-status text-pass">createpurchaseorderwithdeliveredstatus</h5>
+<span class='badge badge-success'>05.06.2021 20:30:44</span>
+<span class='badge badge-danger'>05.06.2021 20:30:57</span>
+<span class='badge badge-default'>12.983 secs</span>
 </div>
 </div>
 </div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log skip-bg">Skip</span></td>
-        <td>3:45:42 PM</td>
-        <td>
-          createpurchaseorderis skipped
-        </td>
-      </tr>
-  </tbody>
-</table>
+  <div>
+  	<div class="float-left"><span class="badge log pass-bg">Pass</span></div>
+  	<div class="float-right" style="width:95%;">createpurchaseorderwithdeliveredstatus is passed</div>
+  </div> 
 </div>
           </div>
         </li>
@@ -122,18 +115,18 @@
           </div>
           <div class="test-detail">
             <span class="meta text-white badge badge-sm"></span>
-            <p class="name">createpurchaseorder</p>
-            <p class="text-sm"><span>15:46:03 PM</span> / <span>0.011 secs</span></p>
+            <p class="name">createpurchaseorderwithcancelledstatus</p>
+            <p class="text-sm"><span>20:31:06 PM</span> / <span>8.204 secs</span></p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
 <div class='float-right'><span class='badge badge-default'>#test-id=2</span></div>
-<h5 class="test-status text-skip">createpurchaseorder</h5>
-<span class='badge badge-success'>03.14.2021 15:46:03</span>
-<span class='badge badge-danger'>03.14.2021 15:46:03</span>
-<span class='badge badge-default'>0.011 secs</span>
+<h5 class="test-status text-skip">createpurchaseorderwithcancelledstatus</h5>
+<span class='badge badge-success'>05.06.2021 20:31:06</span>
+<span class='badge badge-danger'>05.06.2021 20:31:14</span>
+<span class='badge badge-default'>8.204 secs</span>
 </div>
 </div>
 </div><div class="detail-body mt-4">
@@ -142,9 +135,9 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log skip-bg">Skip</span></td>
-        <td>3:46:03 PM</td>
+        <td>8:31:14 PM</td>
         <td>
-          createpurchaseorderis skipped
+          createpurchaseorderwithcancelledstatusis skipped
         </td>
       </tr>
   </tbody>
@@ -152,42 +145,96 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="skip" test-id="3"
+        <li class="test-item"  status="pass" test-id="3"
           author=""
           tag=""
           device="">
-          <div class="status-avatar skip-bg">
-            <i class="fa fa-long-arrow-right text-white"></i>
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
           </div>
           <div class="test-detail">
             <span class="meta text-white badge badge-sm"></span>
-            <p class="name">createpurchaseorderwithdeliveredstatus</p>
-            <p class="text-sm"><span>15:46:03 PM</span> / <span>0.003 secs</span></p>
+            <p class="name">createpurchaseorderwithcancelledstatus</p>
+            <p class="text-sm"><span>20:31:19 PM</span> / <span>13.275 secs</span></p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
 <div class='float-right'><span class='badge badge-default'>#test-id=3</span></div>
-<h5 class="test-status text-skip">createpurchaseorderwithdeliveredstatus</h5>
-<span class='badge badge-success'>03.14.2021 15:46:03</span>
-<span class='badge badge-danger'>03.14.2021 15:46:03</span>
-<span class='badge badge-default'>0.003 secs</span>
+<h5 class="test-status text-pass">createpurchaseorderwithcancelledstatus</h5>
+<span class='badge badge-success'>05.06.2021 20:31:19</span>
+<span class='badge badge-danger'>05.06.2021 20:31:32</span>
+<span class='badge badge-default'>13.275 secs</span>
 </div>
 </div>
 </div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log skip-bg">Skip</span></td>
-        <td>3:46:03 PM</td>
-        <td>
-          createpurchaseorderwithdeliveredstatusis skipped
-        </td>
-      </tr>
-  </tbody>
-</table>
+  <div>
+  	<div class="float-left"><span class="badge log pass-bg">Pass</span></div>
+  	<div class="float-right" style="width:95%;">createpurchaseorderwithcancelledstatus is passed</div>
+  </div> 
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">createpurchaseorderwithreceivedshipmentstatus</p>
+            <p class="text-sm"><span>20:31:41 PM</span> / <span>12.717 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=4</span></div>
+<h5 class="test-status text-pass">createpurchaseorderwithreceivedshipmentstatus</h5>
+<span class='badge badge-success'>05.06.2021 20:31:41</span>
+<span class='badge badge-danger'>05.06.2021 20:31:53</span>
+<span class='badge badge-default'>12.717 secs</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+  <div>
+  	<div class="float-left"><span class="badge log pass-bg">Pass</span></div>
+  	<div class="float-right" style="width:95%;">createpurchaseorderwithreceivedshipmentstatus is passed</div>
+  </div> 
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">createpurchaseordeassignedtomarketinggroup</p>
+            <p class="text-sm"><span>20:32:03 PM</span> / <span>12.667 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=5</span></div>
+<h5 class="test-status text-pass">createpurchaseordeassignedtomarketinggroup</h5>
+<span class='badge badge-success'>05.06.2021 20:32:03</span>
+<span class='badge badge-danger'>05.06.2021 20:32:16</span>
+<span class='badge badge-default'>12.667 secs</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+  <div>
+  	<div class="float-left"><span class="badge log pass-bg">Pass</span></div>
+  	<div class="float-right" style="width:95%;">createpurchaseordeassignedtomarketinggroup is passed</div>
+  </div> 
 </div>
           </div>
         </li>
@@ -205,19 +252,19 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Mar 14, 2021 03:43:53 PM</h3>
+<h3>May 6, 2021 08:30:36 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Mar 14, 2021 03:46:03 PM</h3>
+<h3>May 6, 2021 08:32:17 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>0</h3>
+<h3>4</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -239,13 +286,13 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'>
-<b>0</b> tests passed
+<div><small data-tooltip='80%'>
+<b>4</b> tests passed
 </small>
 </div>
 <div>
 <small data-tooltip='0%'><b>0</b> tests failed,
-<b>3</b> skipped, <b data-tooltip='0%'>0</b> others
+<b>1</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
 </div>
@@ -265,7 +312,7 @@
 <div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>3</b> others
+<b data-tooltip='%'>1</b> others
 </small>
 </div>
 </div>
@@ -304,10 +351,10 @@
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 0,
+passParent: 4,
 failParent: 0,
 warningParent: 0,
-skipParent: 3,
+skipParent: 1,
 childCount: 5,
 passChild: 0,
 failChild: 0,
@@ -324,7 +371,7 @@ eventsCount: 5,
 passEvents: 0,
 failEvents: 0,
 warningEvents: 0,
-skipEvents: 3,
+skipEvents: 1,
 infoEvents: 0
 };
 </script>        </div>

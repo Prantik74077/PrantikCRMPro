@@ -3,11 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.practiceformock.Test3">
+      <class name="com.crm.vtiger.testscripts.Deliveredpurchaseorder">
         <methods>
-          <include name="test2"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="createpurchaseorderwithdeliveredstatus"/>
+          <include name="configBeforeSuite"/>
+          <include name="configAfterClass"/>
+          <include name="configAfterSuite"/>
+          <include name="configBeforeMtd"/>
         </methods>
-      </class> <!-- com.practiceformock.Test3 -->
+      </class> <!-- com.crm.vtiger.testscripts.Deliveredpurchaseorder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
