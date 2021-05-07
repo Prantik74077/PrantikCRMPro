@@ -36,8 +36,7 @@ public class Cancelledpurchaseorder extends Rootclass
     	   String qtydata = e.getExcelData("Sheet1",0,5);
     	   
     	   vcp.createnewpurchaseorderwithcancelledstatus(data, vendordata, billingaddress, shippingaddress, product, qtydata);
-    	   
-    	   /*verify */     
+    	        
     	   Purchaseorderinfopage poi = new Purchaseorderinfopage(driver);
     	   u.visibilityofelement(driver,poi.getSuccessfulMsg());
     	   String purchaseordernmae =poi.getSuccessfulMsg().getText();
