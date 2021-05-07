@@ -5,14 +5,14 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <dependencies>
-  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+  
 		<dependency>
 		    <groupId>org.seleniumhq.selenium</groupId>
 		    <artifactId>selenium-java</artifactId>
 		    <version>3.141.59</version>
 		</dependency>
 		
-		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		
 		<dependency>
 		    <groupId>org.testng</groupId>
 		    <artifactId>testng</artifactId>
@@ -20,7 +20,7 @@
 		    <scope>test</scope>
 		</dependency>
 		 
-		 <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		 
 		<dependency>
 		    <groupId>mysql</groupId>
 		    <artifactId>mysql-connector-java</artifactId>
@@ -44,8 +44,6 @@
   		<version>2.4</version>
   	</dependency>
   	
-  	
-  	<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 <dependency>
     <groupId>com.aventstack</groupId>
     <artifactId>extentreports</artifactId>

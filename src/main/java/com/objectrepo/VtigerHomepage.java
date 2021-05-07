@@ -23,8 +23,6 @@ public class VtigerHomepage extends WebUtility
 		return Purchaseordertb;
 	 }
 
-
-
 	 @FindBy(linkText = "Sign Out")
 	 private WebElement signoutlnk;
 	 

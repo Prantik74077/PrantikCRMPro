@@ -1,9 +1,8 @@
 package com.crm.vtiger.testscripts;
 
-import org.testng.Assert; 
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
 import com.commonlib.Rootclass;
 import com.objectrepo.Purchaseorderinfopage;
 import com.objectrepo.VtigerHomepage;
@@ -36,8 +35,7 @@ public class Receivedshipmentpurchaseorder extends Rootclass
     	   String qtydata = e.getExcelData("Sheet1",0,5);
     	   
     	   vcp.createnewpurchaseorderwithreceivedshipmentstatus(data, vendordata, billingaddress, shippingaddress, product, qtydata);
-    	   
-    	   /*verify */     
+    	       
     	   Purchaseorderinfopage poi = new Purchaseorderinfopage(driver);
     	   u.visibilityofelement(driver,poi.getSuccessfulMsg());
     	   String purchaseordernmae =poi.getSuccessfulMsg().getText();
