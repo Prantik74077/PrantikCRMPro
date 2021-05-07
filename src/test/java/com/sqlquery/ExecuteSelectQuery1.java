@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import com.mysql.cj.jdbc.Driver;
 
-public class ExecuteSelectQuery 
+public class ExecuteSelectQuery1
 {
      public static void main(String[] args) throws Throwable 
      {
